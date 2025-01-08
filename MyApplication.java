@@ -3,7 +3,6 @@ import java.util.Collections;
 
 public class MyApplication {
     public static void main(String[] args) {
-        // Қызметкерлер мен студенттерді жасау
         Employee emp1 = new Employee("John", "Lennon", "Manager", 27045.78);
         Employee emp2 = new Employee("George", "Harrison", "Engineer", 50000.00);
         Student stu1 = new Student("Ringo", "Starr", 2.5);

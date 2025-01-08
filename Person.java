@@ -4,14 +4,11 @@ public class Person implements Payable, Comparable<Person> {
     private String name;
     private String surname;
 
-    // Әдепкі конструктор
     public Person() {
         this.id = ++count;
         this.name = "Unknown";
         this.surname = "Unknown";
     }
-
-    // Параметрлі конструктор
     public Person(String name, String surname) {
         this.id = ++count;
         this.name = name;
@@ -49,7 +46,7 @@ public class Person implements Payable, Comparable<Person> {
 
     @Override
     public double getPaymentAmount() {
-        return 0.0; // Әдепкі төлем
+        return 0.0;
     }
 
     @Override
